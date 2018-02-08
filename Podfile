@@ -6,6 +6,7 @@ target 'ParseChat' do
   use_frameworks!
 
   # Pods for ParseChat
+	pod 'AlamofireImage', '~> 3.3'
   	pod 'Parse'
 	  post_install do |installer|
        	    installer.pods_project.targets.each do |target|
